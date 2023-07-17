@@ -94,7 +94,7 @@ fn part2() -> Result<()> {
             curr_score + my_hand.versus(opp_hand).score() + my_hand.score()
         });
 
-    println!("Total score (part1): {}", total_score);
+    println!("Total score (part2): {}", total_score);
     Ok(())
 }
 
